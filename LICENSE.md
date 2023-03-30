@@ -17,7 +17,7 @@
 |                                                                              |
 | As per CERN-OHL-S v2 section 4, should You produce hardware based on this    |
 | source, You must where practicable maintain the Source Location visible      |
-| on the external case of the ReFiBot or other products you make using this      |
+| on the external case of the ReFiBot or other products you make using this    |
 | source.                                                                      |
  ------------------------------------------------------------------------------
 
