@@ -20,7 +20,7 @@ The project includes hardware designs, software libraries, and documentation to 
 <img alt="RefiBot_Image" src="./docs/refibots.jpeg" width="500">
 
 
-## Table of Contents
+# Table of Contents
 
 - [Features](#features)
   - [Key Features](#key-features)
@@ -36,7 +36,7 @@ The project includes hardware designs, software libraries, and documentation to 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
+# Features
 
 ### Key Features
 
@@ -56,7 +56,7 @@ RefiBot's flexibility makes it an ideal platform for a variety of applications, 
 The possibilities for RefiBot are only limited by your imagination and creativity. We encourage you to explore its potential and share your own customizations and applications with the community.
 
 
-## Hardware
+# Hardware
 
 The RefiBot is a robotic platform built using various hardware components, including motors, sensors, and controllers.
 
@@ -90,7 +90,7 @@ The robot consists of the following parts, whose design files are available in t
 12. Top Plate (`Top_Plate.png`)
 
 
-## Software
+# Software
 
 The library `software/awesome_lib.h` provides a set of functions and definitions for controlling the sensors of the RefiBot. 
 
@@ -133,7 +133,7 @@ void loop(){
 }
 ```
 
-## Demo Video
+# Demo Video
 
 ![Watch the demo video!](./docs/demo.gif)
 
@@ -144,6 +144,6 @@ Apart from pull requests you can [open an issue](https://github.com/saidlab-team
 For feature requests, general ideas, or any broader topic, please use the [Discussions section](https://github.com/saidlab-team/RefiBot/discussions).
 
   
-## License
+# License
 
 This project (hardware and software) is licensed under the GPL3 license - see the [LICENSE](LICENSE) file for details.
