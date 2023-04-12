@@ -6,8 +6,16 @@
 
 <p align="center">
 <a href="https://github.com/saidlab-team/RefiBot/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/saidlab-team/RefiBot" alt="License">
+    <img src="https://img.shields.io/badge/license-GPL3-blue" alt="License">
 </a>
+<img src="https://img.shields.io/github/stars/saidlab-team/RefiBot?style=social" alt="Stars">
+
+<a href="https://twitter.com/socialdroneslab" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/socialdroneslab?style=social" alt="Twitter">
+</a>
+
+
+
 
 
 
