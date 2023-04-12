@@ -115,7 +115,7 @@ void loop(){
 
 ## Demo Video
 
-[Watch the demo video!](./docs/demo.mp4)
+[Watch the demo video!](./docs/demo.gif)
 
 ## License
 
