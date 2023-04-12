@@ -1,19 +1,39 @@
 # RefiBot
 
+<div align="center">
+    <h1>🤖🛠️ RefiBot 🛠️🤖</h1>
+</div>
+
+<p align="center">
+<a href="https://github.com/saidlab-team/RefiBot/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/saidlab-team/RefiBot" alt="License">
+</a>
+
+
+
+
 > A small educational robot made from recycled plastic from fishnets
 
 RefiBot is an open-source educational robot designed to be built at home using recycled plastics from fishnets, promoting sustainability and encouraging learning. 
 The project includes hardware designs, software libraries, and documentation to help you build and program your RefiBot.
 
-![RefiBot_Image](./docs/refibots.jpeg)
+<img alt="RefiBot_Image" src="./docs/refibots.jpeg" width="500">
 
 
 ## Table of Contents
 
 - [Features](#features)
+  - [Key Features](#key-features)
+  - [Possible Applications](#possible-applications)
 - [Hardware](#hardware)
+  - [Main Components](#main-components)
+  - [Laser-cut parts](#laser-cut-parts)
 - [Software](#software)
+  - [What's supported](#whats-supported)
+  - [Dependencies](#dependencies)
+  - [Example](#example)
 - [Demo Video](#demo-video)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -74,7 +94,7 @@ The robot consists of the following parts, whose design files are available in t
 
 The library `software/awesome_lib.h` provides a set of functions and definitions for controlling the sensors of the RefiBot. 
 
-### Features
+### What's supported
 
 - TCS34725 color sensor support
 - PCA9685 PWM servo driver support
@@ -115,8 +135,15 @@ void loop(){
 
 ## Demo Video
 
-[Watch the demo video!](./docs/demo.gif)
+![Watch the demo video!](./docs/demo.gif)
 
+## Contributing
+
+Any contribution is welcome!
+Apart from pull requests you can [open an issue](https://github.com/saidlab-team/RefiBot/issues/new/choose) to report bugs.
+For feature requests, general ideas, or any broader topic, please use the [Discussions section](https://github.com/saidlab-team/RefiBot/discussions).
+
+  
 ## License
 
 This project (hardware and software) is licensed under the GPL3 license - see the [LICENSE](LICENSE) file for details.
