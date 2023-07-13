@@ -33,18 +33,18 @@ In order to give life to the robot,  instructions in the form of a program shoul
 |----------------------|------------------------------------|-------------------------------------------------------|
 | Time management      | `void wait(float n secs)`          | Wait `n` seconds                                      |
 |                      | `void wait for serial input()`     | Wait until the serial monitor receives something       |
-| QTR-8 IR line tracker | `uint16 t read line black position()` | Return the position of the black line under the RefiBot |
-|                      | `bool* black line array()`         | Read the sensor values                                |
-|                      | `int array count(bool* arr)`       | Return the number of sensors that see black under the robot |
-| TCS34725 RGB sensor  | `float* read rgb sensor()`    | Return three values with the color of the point in front of the camera, coded as `[R,G,B]` |
-| HC-SR04 Ultrasonic sensor  | `float get sonar distance()` | Return the distance (cm) from the sensor to the object in front of it |
-| Buzzer      | `void buzzer sound(float time)`    | Make a 100Hz sound for `time` seconds                  |
-|                      | `void buzzer number(int n beeps)`  | Beep `n` times                                        |
-| Motors      | `void stop robot()`                 | Stop both motors                                      |
-|                      | `void go front()`                   | Move both motors at the same speed                     |
-|                      | `void go back()`                    | Move both motors backward at the same speed            |
-|                      | `void go right()`                   | Move the left motor forward faster than the right motor |
-|                      | `void go left()`                    | Move the right motor forward faster than the left motor |
+| QTR-8 IR line tracker | `uint16 t read_line_black_position()` | Return the position of the black line under the RefiBot |
+|                      | `bool* black_line_array()`         | Read the sensor values                                |
+|                      | `int array_count(bool* arr)`       | Return the number of sensors that see black under the robot |
+| TCS34725 RGB sensor  | `float* read_rgb_sensor()`    | Return three values with the color of the point in front of the camera, coded as `[R,G,B]` |
+| HC-SR04 Ultrasonic sensor  | `float get_sonar_distance()` | Return the distance (cm) from the sensor to the object in front of it |
+| Buzzer      | `void buzzer_sound(float time)`    | Make a 100Hz sound for `time` seconds                  |
+|                      | `void buzzer_number(int n beeps)`  | Beep `n` times                                        |
+| Motors      | `void stop_robot()`                 | Stop both motors                                      |
+|                      | `void go_front()`                   | Move both motors at the same speed                     |
+|                      | `void go_back()`                    | Move both motors backward at the same speed            |
+|                      | `void go_right()`                   | Move the left motor forward faster than the right motor |
+|                      | `void go_left()`                    | Move the right motor forward faster than the left motor |
 
 
 ## Some examples
