@@ -32,8 +32,8 @@ In order to give life to the robot,  instructions in the form of a program shoul
 | Sensors              | Functions                          | Explanation                                           |
 |----------------------|------------------------------------|-------------------------------------------------------|
 | Time management      | `void wait(float n secs)`          | Wait `n` seconds                                      |
-|                      | `void wait for serial input()`     | Wait until the serial monitor receives something       |
-| QTR-8 IR line tracker | `uint16 t read_line_black_position()` | Return the position of the black line under the RefiBot |
+|                      | `void wait_for_serial_input()`     | Wait until the serial monitor receives something       |
+| QTR-8 IR line tracker | `uint16_t read_line_black_position()` | Return the position of the black line under the RefiBot |
 |                      | `bool* black_line_array()`         | Read the sensor values                                |
 |                      | `int array_count(bool* arr)`       | Return the number of sensors that see black under the robot |
 | TCS34725 RGB sensor  | `float* read_rgb_sensor()`    | Return three values with the color of the point in front of the camera, coded as `[R,G,B]` |
