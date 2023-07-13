@@ -50,7 +50,7 @@ The project includes hardware designs, software libraries, and documentation to 
 
 - Modular and customizable structure: RefiBot's laser-cut components are designed to fit together easily, making assembly and customization a breeze.
 - Support for various sensors and actuators: RefiBot can be equipped with a wide range of sensors and actuators, such as distance sensors, light sensors, and servo motors, to adapt to different tasks.
-- Pre-programmed example code: The provided `example.ino` Arduino sketch is the perfect start point to explore the functions of RefiBot.
+- Pre-programmed example code: The provided `example.ino` Arduino sketch is the perfect start point to explore the functions of RefiBot. We also recommend you to take a look at the [Tutorial](docs/tutorial.md)
 - Open-source software and hardware: RefiBot's design files, software libraries, and example code are all open-source, encouraging collaboration and modification to suit your needs.
 
 ### Possible Applications
