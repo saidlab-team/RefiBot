@@ -1,5 +1,6 @@
 # ReFiBot Overiew and Examples
-ReFiBot stands for Recycled Fishnet Robot, as the frame of the robot is made from recycled fishnets. This document goes through some of the features of the robot, and how to program it to perform certain functions.
+ReFiBot stands for Recycled Fishnet Robot, as the frame of the robot is made from recycled fishnets. This document goes through some of the features of the robot, and how to program it to perform certain functions. We recommend going through the examples below as a starting point, but please explore all the functions we have madwe available, or even better: program your own and join the ReFiBot community!
+
 
 ## Overview
 
@@ -26,7 +27,27 @@ In order to give life to the robot,  instructions in the form of a program shoul
 4. Verify that the right port is selected.
 5. Click the upload button.
 
-## Examples
+### Available functions
+
+| Sensors              | Functions                          | Explanation                                           |
+|----------------------|------------------------------------|-------------------------------------------------------|
+| Time management      | `void wait(float n secs)`          | Wait `n` seconds                                      |
+|                      | `void wait for serial input()`     | Wait until the serial monitor receives something       |
+| QTR-8 IR line tracker | `uint16 t read line black position()` | Return the position of the black line under the RefiBot |
+|                      | `bool* black line array()`         | Read the sensor values                                |
+|                      | `int array count(bool* arr)`       | Return the number of sensors that see black under the robot |
+| TCS34725 RGB sensor  | `float* read rgb sensor()`    | Return three values with the color of the point in front of the camera, coded as `[R,G,B]` |
+| HC-SR04 Ultrasonic sensor  | `float get sonar distance()` | Return the distance (cm) from the sensor to the object in front of it |
+| Buzzer      | `void buzzer sound(float time)`    | Make a 100Hz sound for `time` seconds                  |
+|                      | `void buzzer number(int n beeps)`  | Beep `n` times                                        |
+| Motors      | `void stop robot()`                 | Stop both motors                                      |
+|                      | `void go front()`                   | Move both motors at the same speed                     |
+|                      | `void go back()`                    | Move both motors backward at the same speed            |
+|                      | `void go right()`                   | Move the left motor forward faster than the right motor |
+|                      | `void go left()`                    | Move the right motor forward faster than the left motor |
+
+
+## Some examples
 ### Wheel calibration and setup
 
 The automatic adjustment might not work too well, such as left and right not moving at the same speed, or stop_robot not stopping the robot. If this is the case, you need to change the wheel_stable points to values between 330 and 350. Do this until they stop when only running stop_robot(). Copy-paste the code below to your sketch, and add the direction and setMotorsStablePoints(x,x)  in your setup() for the rest of the tutorial.
