@@ -53,7 +53,7 @@ void loop(){
 
 ### The ultrasonic sensor
 
-![HC-SR04 ultrasonic sensor](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/accf477c-1e24-4d00-8125-6361817b723e/HC-SR04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211217T113021Z&X-Amz-Expires=86400&X-Amz-Signature=04f7e703b87b59f5e258ee1bc40b8f7289dcd8d59ec32149f0b06d9e825eb5ca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22HC-SR04.png%22&x-id=GetObject)
+![HC-SR04 ultrasonic sensor](HC-SR04.png)
 
 HC-SR04 ultrasonic sensor
 
@@ -65,7 +65,7 @@ $$
 
 Fortunately, the provided code calculates automatically the distance for you.
 
-![Working principle of the ultrasonic sensor](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19eaebbc-159b-401e-b42e-ccb26f790db4/Ultrasonic.png)
+![Working principle of the ultrasonic sensor](Ultrasonic.png)
 
 Working principle of the ultrasonic sensor
 
@@ -90,8 +90,6 @@ void loop(){
 
 
 ### Ultrasonic Wall Detection and Counting
-
-![ReFiBot_flow.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88422b05-4e9f-407e-b651-03bd60e17b9f/ReFiBot_flow.png)
 
 More complex behaviours can always be programmed by combining the different functions. For example we can count the number of walls it has detected. Starting with when a distance larger than 20cm is detected, the robot moves forward until the next sensor reading. But if the distance is equal or less than 20cm, it stops, beeps (for the number of walll counts), moves backward, and rotates right. After this, it loops back to the decision process to re-evaluate the distance.
 
@@ -142,7 +140,7 @@ The code above is the implementation of this flowchart in the Arduino language. 
 
 ### RGB colour detection sensor
 
-!https://s3.us-west-2.amazonaws.com/secure.notion-static.com/266a428c-adb8-4013-a89a-5cc80985ee3f/TCS34725.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211217T141303Z&X-Amz-Expires=86400&X-Amz-Signature=eb2d06ce321fa6e8b0d0b8614825d2739a0fbd1cba0a89a4a5d76b99b6dc16fd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22TCS34725.png%22&x-id=GetObject
+![RGB colour sensor](TCS34725.png)
 
 The TCS34725 board works like a tiny, one-pixel camera that is capable to sense and quantify the colour values of the reflected light when an object is placed in front of it. As you can see on the bottom of the ReFiBot, this sensor is also equipped with a white LED to ensure sufficient light intensity for taking good measurements. 
 
