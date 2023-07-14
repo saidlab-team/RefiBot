@@ -22,7 +22,7 @@
 
 > A small educational robot made from recycled plastic from fishnets
 
-RefiBot is an open-source educational robot designed to be built at home using recycled plastics from fishnets, promoting sustainability and encouraging learning. 
+RefiBot is an open-source educational robot designed to be built at home using recycled plastics from fishnets, promoting sustainability and encouraging learning.
 The project includes hardware designs, software libraries, and documentation to help you build and program your RefiBot.
 
 <img alt="RefiBot_Image" src="./docs/refibots.jpeg" width="500">
@@ -50,7 +50,7 @@ The project includes hardware designs, software libraries, and documentation to 
 
 - Modular and customizable structure: RefiBot's laser-cut components are designed to fit together easily, making assembly and customization a breeze.
 - Support for various sensors and actuators: RefiBot can be equipped with a wide range of sensors and actuators, such as distance sensors, light sensors, and servo motors, to adapt to different tasks.
-- Pre-programmed example code: The provided `example.ino` Arduino sketch is the perfect start point to explore the functions of RefiBot. We also recommend you to take a look at the [Tutorial](docs/tutorial.md)
+- Pre-programmed example code: The provided `example.ino` Arduino sketch is the perfect start point to explore the functions of RefiBot. We also recommend you to take a look at the [Tutorial](docs/README.md)
 - Open-source software and hardware: RefiBot's design files, software libraries, and example code are all open-source, encouraging collaboration and modification to suit your needs.
 
 ### Possible Applications
@@ -100,7 +100,7 @@ The robot consists of the following parts, whose design files are available in t
 
 # Software
 
-The library `software/awesome_lib.h` provides a set of functions and definitions for controlling the sensors of the RefiBot. 
+The library `software/awesome_lib.h` provides a set of functions and definitions for controlling the sensors of the RefiBot.
 
 ### What's supported
 
@@ -141,6 +141,9 @@ void loop(){
 }
 ```
 
+To learn more about how to use this robot, please, [check the Tutorial](docs/README.md)
+
+
 # Demo Video
 
 ![Watch the demo video!](./docs/demo.gif)
@@ -151,7 +154,7 @@ Any contribution is welcome!
 Apart from pull requests you can [open an issue](https://github.com/saidlab-team/RefiBot/issues/new/choose) to report bugs.
 For feature requests, general ideas, or any broader topic, please use the [Discussions section](https://github.com/saidlab-team/RefiBot/discussions).
 
-  
+
 # License
 
 This project (hardware and software) is licensed under the GPL3 license - see the [LICENSE](LICENSE) file for details.
