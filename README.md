@@ -28,6 +28,28 @@ The project includes hardware designs, software libraries, and documentation to 
 <img alt="RefiBot_Image" src="./docs/refibots.jpeg" width="500">
 
 
+Citing
+-------
+
+Please cite the  following paper ([https://www.sciencedirect.com/science/article/pii/S2468067223000913](https://www.sciencedirect.com/science/article/pii/S2468067223000913)) when using ReFiBot for your research:
+
+
+```bibtex
+  @article{PANTOS2023Refibot,
+    title = {The ReFiBot makers guide: Fostering academic open science and circularity with a robotic educational kit},
+    journal = {HardwareX},
+    volume = {16},
+    pages = {e00484},
+    year = {2023},
+    issn = {2468-0672},
+    doi = {https://doi.org/10.1016/j.ohx.2023.e00484},
+    url = {https://www.sciencedirect.com/science/article/pii/S2468067223000913},
+    author = {Christos Pantos and Jurrian Doornbos and Gonzalo Mier and João Valente},
+    keywords = {Robotics, Education, Circularity, Open-science, Recycling, Low-cost}
+  }
+```
+
+
 # Table of Contents
 
 - [Features](#features)
