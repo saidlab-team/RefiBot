@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Pantos"
+    given-names: "Christos"
+  - family-names: "Doornbos"
+    given-names: "Jurrian"
+    orcid: "https://orcid.org/0000-0003-2982-1710"
+  - family-names: "Mier"
+    given-names: "Gonzalo"
+    orcid: "https://orcid.org/0000-0002-7588-9911"
+  - family-names: "Valente"
+    given-names: "João"
+    orcid: "https://orcid.org/0000-0002-6241-4124"
+  doi: "https://doi.org/10.1016/j.ohx.2023.e00484"
+  journal: "HardwareX"
+  title: "The ReFiBot makers guide: Fostering academic open science and circularity with a robotic educational kit"
+  year: 2023
